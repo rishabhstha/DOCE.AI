@@ -934,7 +934,7 @@ def minimax(state, turn, prev_black, prev_white, countTurn1, countTurn2, depth, 
 
                     makeMove(state, operatorAI, move)
 
-                    prev_white_row = operatorAI.row
+                    prev_white.row = operatorAI.row
                     prev_white.col = operatorAI.col
 
                     m = minimax(state, USER_BLACK, prev_black, prev_white,
