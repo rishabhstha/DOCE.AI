@@ -1,4 +1,7 @@
 # DOCE.AI 
+This is an AI for a board game DOCE
+The executable is in DOCE_Final.py and final development version is in DOCE_Final.ipynb.
+A Human player, A Random Player and a smart AI player is implemented in this game
 
 ### Implementation of AI
 
